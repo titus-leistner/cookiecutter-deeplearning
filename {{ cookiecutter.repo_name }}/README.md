@@ -2,6 +2,22 @@
 
 {{cookiecutter.description}}
 
+## Requirements
+* Python 3
+* CUDA
+* cuDNN
+
+
+## Installation
+For the installation I recommend a python venv.
+```sh
+git clone git@github.com:{{cookiecutter.author_name}}/{{cookiecutter.repo_name}}.git
+cd {{cookiecutter.project_name}}/
+python3 -m venv .
+source bin/activate
+pip install -r requirements.txt
+```
+
 ## Project Organization
 
     ├── LICENSE
