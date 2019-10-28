@@ -45,6 +45,8 @@ pip install -r requirements.txt
     │   │
     │   ├── data                                <- Scripts to download or generate data
     │   │
+    │   ├── model                               <- Scripts defining the neural network models
+    │   │
     │   ├── utils                               <- Scripts utilities used during data generation or training
     │   │
     │   ├── train                               <- Scripts to train models
