@@ -1,3 +1,7 @@
+# Datasets
+./data/
+!./data/.gitkeep
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -59,6 +63,17 @@ target/
 # DotEnv configuration
 .env
 
+# virtualenv
+.venv
+venv/
+ENV/
+bin/
+include/
+share/
+pip-selfcheck.json
+lib64
+pyvenv.cfg
+
 # Database
 *.db
 *.rdb
@@ -66,9 +81,21 @@ target/
 # Pycharm
 .idea
 
+# VIM
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+
 # IPython NB Checkpoints
 .ipynb_checkpoints/
-
-# exclude data from source control by default
-./data/
-
