@@ -1,7 +1,7 @@
 import pytest
 
 # imports of the module you want to test and the dependencies
-# import zixels.model
+# import {{ cookiecutter.repo_name }}.model
 
 
 @pytest.fixture()
