@@ -20,9 +20,13 @@ pip install -r requirements.txt
 
 ## Project Organization
 
-    ├── LICENSE
+    ├── LICENSE                                 <- The License
+    │
+    ├── Makefile                                <- A Makefile for basic setup, e.g. dataset downloads
+    │
     ├── README.md                               <- The top-level README for developers using this project.
-    ├── data                                    <- datasets, etc.
+    │
+    ├── data                                    <- The necessary data files, e.g. datasets
     │
     ├── docs                                    <- A default Sphinx project with markdown; see sphinx-doc.org for details
     │
