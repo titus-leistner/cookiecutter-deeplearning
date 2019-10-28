@@ -13,4 +13,3 @@ matplotlib
 colorama
 tqdm
 terminaltables
-recommonmark
