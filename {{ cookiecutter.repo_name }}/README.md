@@ -36,6 +36,8 @@ pip install -r requirements.txt
     │                                              the creator's initials, and a short `-` delimited description, e.g.
     │                                              `1.0-jqp-initial-data-exploration`.
     │
+    ├── tests                                   <- Tests of the project based on pytest
+    │
     ├── requirements.txt                        <- The requirements file for reproducing the analysis environment, e.g.
     │                                              generated with `pip freeze > requirements.txt`
     │
