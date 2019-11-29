@@ -7,6 +7,7 @@ Welcome to {{ cookiecutter.project_name }}'s documentation!
 
    getting-started
    commands
+   modules
 
 Indices and tables
 ==================
